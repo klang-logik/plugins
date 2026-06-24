@@ -1,40 +1,39 @@
-# Klanglogik — Support &amp; Releases
+# Klanglogik — Plugins, Releases & Support
 
-Professional Q-SYS plugins, licensing and support.
+Professional Q-SYS plugins for audio control and integration.
 
-> This repository is the **public home for support, downloads and feature requests**.
-> It contains **no source code** — our plugin source is maintained privately.
+> This repository is the **public home for downloads, documentation and support**.
+> Plugin source code is maintained privately.
 
 ---
 
-## ⬇️ Downloads
+## Downloads
 
 Compiled, encrypted plugins (`.qplugx`) are published on the
-[**Releases**](../../releases) page. Each release lists the plugin version,
-changelog, and the file to download.
+[**Releases**](https://github.com/klang-logik/plugins/releases) page.
+Each release includes the plugin version, changelog, and the file to download.
 
-## 🔑 Licensing
+## Licensing
 
 Our plugins are node-locked to a Q-SYS Core using its `System.LockingId`.
-After purchase you'll receive a license key tied to your Core. See the
-[licensing guide](#) <!-- TODO: link license portal when live --> for the
-exact steps.
+After purchase you will receive a license key tied to your Core.
 
-## 🐛 Found a bug? 💡 Got an idea?
+**Flow:** buy → load the plugin in Q-SYS → submit your Core's Locking ID → receive your key.
 
-Open an [**Issue**](../../issues/new/choose) and pick the matching template:
+## Found a bug? Got an idea?
 
-| I want to… | Use |
+Open an [**Issue**](https://github.com/klang-logik/plugins/issues/new/choose) and pick the matching template:
+
+| I want to… | Template |
 |---|---|
-| Report something broken | 🐛 **Bug report** |
-| Request a feature or new plugin | 💡 **Feature request** |
-| Get help with a purchase / license key | 🔑 **License &amp; purchase support** |
+| Report something broken | Bug report |
+| Request a feature or new plugin | Feature request |
+| Get help with a purchase or license key | License & purchase support |
 
-## 📬 Contact
+## Contact
 
-- Support: **support@klanglogik.de**
-- General: **info@klanglogik.de**
-- Web: **klanglogik.de**
+- Email: **support@klanglogik.de**
+- Website: **klanglogik.de**
 
 ---
 
