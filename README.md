@@ -1,21 +1,25 @@
-# Klanglogik — Plugins, Releases & Support
+# Klanglogik — Plugins & Tools
 
-Professional Q-SYS plugins for audio control and integration.
+Professional Q-SYS plugins and tools for audio control and integration.
 
 > This repository is the **public home for downloads, documentation and support**.
-> Plugin source code is maintained privately.
+> Source code is maintained privately.
 
 ---
 
-## Downloads
+## Available Releases
 
-Compiled, encrypted plugins (`.qplugx`) are published on the
-[**Releases**](https://github.com/klang-logik/plugins/releases) page.
-Each release includes the plugin version, changelog, and the file to download.
+| Name | Description | Download |
+|---|---|---|
+| Note Taker | Timecode-synced show notes — live browser clock synced to Q-SYS | [Latest](https://github.com/klang-logik/plugins/releases?q=note-taker) |
+
+## How to Download
+
+Go to the [**Releases**](https://github.com/klang-logik/plugins/releases) page, find the plugin you need, and download the ZIP from the Assets section.
 
 ## Licensing
 
-Our plugins are node-locked to a Q-SYS Core using its `System.LockingId`.
+Paid plugins are node-locked to a Q-SYS Core using its `System.LockingId`.
 After purchase you will receive a license key tied to your Core.
 
 **Flow:** buy → load the plugin in Q-SYS → submit your Core's Locking ID → receive your key.
@@ -32,8 +36,7 @@ Open an [**Issue**](https://github.com/klang-logik/plugins/issues/new/choose) an
 
 ## Contact
 
-- Email: **support@klanglogik.de**
-- Website: **klanglogik.de**
+Email: **support@klanglogik.de** · Website: **klanglogik.de**
 
 ---
 
