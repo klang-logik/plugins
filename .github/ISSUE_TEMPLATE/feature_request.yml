@@ -1,0 +1,35 @@
+name: "💡 Feature request"
+description: Suggest a new feature, improvement, or a new plugin
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the idea! Tell us what you'd like to see.
+  - type: input
+    id: plugin
+    attributes:
+      label: Related plugin (if any)
+      placeholder: "e.g. tk_BGMSelector — or 'new plugin idea'"
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the use case or pain point.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
