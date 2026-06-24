@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📬 Email support
+    url: mailto:support@klanglogik.de
+    about: For anything you'd rather not post publicly (payment, license keys).
+  - name: 🌐 Klanglogik website
+    url: https://klanglogik.de
+    about: Plugins, downloads and licensing.
