@@ -1,0 +1,43 @@
+name: "🔑 License & purchase support"
+description: Help with a purchase, license key, or activation
+title: "[License]: "
+labels: ["license"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help with a purchase or license key? Fill this in and we'll get you sorted.
+        **Do not post full license keys or payment details in a public issue** — we'll
+        follow up by email if anything sensitive is needed.
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin & version
+      placeholder: "e.g. tk_BGMSelector v1.2"
+    validations:
+      required: true
+  - type: input
+    id: order
+    attributes:
+      label: Order reference (if you have one)
+      placeholder: "e.g. order #1234"
+    validations:
+      required: false
+  - type: dropdown
+    id: topic
+    attributes:
+      label: What do you need help with?
+      options:
+        - I purchased but haven't received a key
+        - My license key isn't activating
+        - I need to move my license to a different Core
+        - Pre-purchase question
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true
