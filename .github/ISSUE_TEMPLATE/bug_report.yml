@@ -1,0 +1,54 @@
+name: "🐛 Bug report"
+description: Report something not working in a Klanglogik plugin
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. Please fill in as much as you can — it helps us reproduce the issue quickly.
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin & version
+      placeholder: "e.g. tk_BGMSelector v1.2"
+    validations:
+      required: true
+  - type: input
+    id: qsys-version
+    attributes:
+      label: Q-SYS Designer / firmware version
+      placeholder: "e.g. 9.12.1"
+    validations:
+      required: true
+  - type: input
+    id: core
+    attributes:
+      label: Core model
+      placeholder: "e.g. Core 110f"
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output / screenshots
+      description: Paste any Q-SYS log entries or attach screenshots.
+      render: shell
+    validations:
+      required: false
