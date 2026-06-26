@@ -1,6 +1,6 @@
 # Klanglogik — Plugins & Tools
 
-Professional Q-SYS plugins and tools for audio control and integration.
+Professional plugins and tools for AV control and integration — across platforms like Q-SYS, REAPER and BSS.
 
 > This repository is the **public home for downloads, documentation and support**.
 > Source code is maintained privately.
