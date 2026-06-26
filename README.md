@@ -12,6 +12,7 @@ Professional plugins and tools for AV control and integration — across platfor
 | Name | Description | Download |
 |---|---|---|
 | Note Taker | Timecode-synced show notes — live browser clock synced to Q-SYS | [Latest](https://github.com/klang-logik/plugins/releases?q=note-taker) |
+| Surround Panner | Immersive object-based panning for REAPER — web UI drives a DBAP panner live | [Latest](https://github.com/klang-logik/plugins/releases?q=surround-panner) |
 
 ## How to Download
 
